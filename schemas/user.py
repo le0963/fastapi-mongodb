@@ -3,7 +3,8 @@ def userEntity(item) -> dict:
             "id":str(item["_id"]),
             "nombre" :item["nombre"],
             "apellido" :item["apellido"],
-            "documento" :item["documento"], 
+            "documento" :item["documento"],
+            "avatar" :item["avatar"],  
             "email" :item["email"],
             "direccion" : item["direccion"],
             "password" :item["password"] 

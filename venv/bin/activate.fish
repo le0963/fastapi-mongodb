@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/leo/Ciclo4_MInTic/semana3/sabado/venv"
+set -gx VIRTUAL_ENV "/home/leo/MIntic/python-mongodb-crud_v4/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

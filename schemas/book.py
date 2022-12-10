@@ -3,6 +3,7 @@ def bookEntity(item) -> dict:
             "id":str(item["_id"]),
             "titulo": item["titulo"], 
             "autor": item["autor"],
+            "icono": item["icono"],   
             "editorial": item["editorial"],
             "idioma" : item["idioma"],
             "precio" : item["precio"]

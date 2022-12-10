@@ -6,9 +6,10 @@ from passlib.hash import sha256_crypt
 from bson import ObjectId
 from starlette.status import HTTP_204_NO_CONTENT
 
+
 user = APIRouter()
 
-@user.get('/users',tags=["users"])
+@user.get('/users', tags=["users"])
 def find_all_user():
     return usersEntity(conn.mintic.user.find())   
 

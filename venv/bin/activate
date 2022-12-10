@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/leo/Ciclo4_MInTic/semana3/sabado/venv"
+VIRTUAL_ENV="/home/leo/MIntic/python-mongodb-crud_v4/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
